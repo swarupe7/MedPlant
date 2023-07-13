@@ -2,6 +2,9 @@
 
 MedPlant is an open-source project focused on creating awareness of the medicinal properties of various plants. It aims to provide a comprehensive resource for individuals interested in alternative medicine, herbal remedies, and the healing potential of plants.
 
+
+If you have any kind of doubts or queries dont hesitate to contact me.But please place 😎😎😎 these emoji in your subject of email ,so that i can easily be attentive to your mail or query.My mail was mentioned in this Readme file.
+
 ## Features
 
 - Extensive database of plant profiles with detailed information about their medicinal properties.
