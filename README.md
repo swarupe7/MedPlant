@@ -4,7 +4,7 @@ MedPlant is an open-source project focused on creating awareness of the medicina
 
 ## Features
 
-- Extensive database of plant profiles with detailed information about their medicinal properties, cultivation, and traditional uses.
+- Extensive database of plant profiles with detailed information about their medicinal properties.
 - Community-driven platform for sharing research findings, experiences, and insights related to plant-based medicine.
 
 ### Getting Started
