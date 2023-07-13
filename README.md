@@ -81,7 +81,7 @@ I want all the contributors for this project to include their name in AUTHORS.md
 
 ## License
 
-MedPlant is open-source and released under the [License Name]. See the [LICENSE](LICENSE) file for more information.
+MedPlant is open-source and released under the [License Name]. See the [MIT License](LICENSE) file for more information.
 
 ## Contact
 
