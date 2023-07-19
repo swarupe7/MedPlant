@@ -1,5 +1,5 @@
 body {
-    background-color: #eaf6f6;
+    background-color: #E2F6CA;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -21,10 +21,10 @@ h1 {
     margin-top: 10px;
     margin-bottom: 5px;
 }
-
-h2 {
-    color: #333;
+.main{
+    color: #1A5D1A;
 }
+
 
 .card {
     flex-basis: 0;
@@ -52,3 +52,85 @@ h2 {
 .link {
     text-decoration: none;
 }
+.thank-you{
+    color: #557A46;
+}
+:root {  
+    /* --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177); */
+
+    /* --red: #F31559;
+    --magenta: #FF52A2;
+    --orange: #FFB07F;
+
+    --green: #1A5D1A;
+    --yellow: #F1C93B;
+    --blue: #78C1F3; */
+    --yellow: #F2EE9D;
+    --l-green: #7A9D54;
+    --d-green: #557A46;
+  }
+  
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    
+    to {
+      background-position: -200% center;
+    }
+  }
+  
+  @keyframes scale {
+    from, to {
+      transform: scale(0);
+    }
+    
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    
+    to {
+      transform: rotate(180deg);
+    }
+  }
+
+  
+  h2 {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: clamp(2em, 2vw, 4em);
+    font-weight: 400;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 > .magic {
+    display: inline-block;
+    position: relative;
+  }
+
+
+  h2 > .magic > .magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--yellow),
+      var(--l-green),
+      var(--d-green),
+      var(--yellow)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+  
