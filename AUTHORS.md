@@ -7,6 +7,7 @@ The following developers have contributed to the MedPlant project:
 - [Srivatsav](https://github.com/onkarsrivastava)
 - [Subha](https://github.com/subhaDTECH)
 - [Sourav](https://github.com/sourav7274)
+- [Mahesh](https://github.com/maheshravuri)
 - 
 
 
