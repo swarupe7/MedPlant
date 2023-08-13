@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MedPlant</title>
+    <meta name="description" content="MedPlant"/>
+    <meta name="keywords" content="MedPlant"/>
+    <meta property="og:title" content="MedPlant"/>
+    <meta property="og:description" content="MedPlant"/>
+    <meta property="og:image" content="#"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="#"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link rel="icon" type="image/x-icon" href="./img/leaf.png">
 </head>
-
 <body>
     <nav class="navbar bg-dark">
         <div class="container-fluid">
@@ -19,60 +25,60 @@
             </a>
             <ul class="nav-ul">
                 <li><a href="ThankYou.html" style="color:white">Developers</a></li>
-                <li><a href="directed.html" style="color:white">Discover</a></li>
-                </ul>
+                <li><a href="directory.html" style="color:white">Discover</a></li>
+            </ul>
         </div>
     </nav>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/hills.jpg" class="d-block w-100" height="380px" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/flowers.jpg" class="d-block w-100" height="400px" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/redtree.jpg" class="d-block w-100" height="380px" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <section class="about-us">
-        <div class="about">
-            <img src="./img/quote.jpg" class="pic">
-            <div class="text">
-                <h2>MedPlant</h2>
-                <h5>Herbiverse & HerbalHub</h5>
-                <p>Welcome to our informative page dedicated to various plants and their medicinal uses and benefits. Here, you will discover a treasure trove of knowledge about the vast world of plants and how they have been traditionally used for healing
-                    purposes.
-
-                    <br> <br> Explore our comprehensive collection of plant profiles, each highlighting a specific plant's unique properties, cultivation information, and medicinal benefits. Dive into the rich heritage of herbal medicine as we delve into
-                    the historical and cultural significance of these plants across different traditions and regions.</p>
-                <div class="data">
-                    <a href="./directed.html" class="hire">Explore !!</a>
+    <main>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/hills.jpg" class="d-block w-100" height="380px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/flowers.jpg" class="d-block w-100" height="400px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/redtree.jpg" class="d-block w-100" height="380px" alt="...">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
-
-
-
-
+        <section class="about-us">
+            <div class="about">
+                <img src="./img/quote.jpg" class="pic">
+                <div class="text">
+                    <h1>MedPlant</h1>
+                    <h5>Herbiverse & HerbalHub</h5>
+                    <p>Welcome to our informative page dedicated to various plants and their medicinal uses and benefits.
+                        Here, you will discover a treasure trove of knowledge about the vast world of plants and how they
+                        have been traditionally used for healing purposes.
+                        <br><br>
+                        Explore our comprehensive collection of plant profiles, each highlighting a specific plant's unique
+                        properties, cultivation information, and medicinal benefits.
+                        Dive into the rich heritage of herbal medicine as we delve into the historical and cultural
+                        significance of these plants across different traditions and regions.</p>
+                    <div class="data">
+                        <a href="./directory.html" class="hire">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
         <div class="container">
             <div class="row row-30">
                 <div class="col-md-4 col-xl-5">
                     <div class="pr-xl-4">
                         <a class="brand" href="index.html"><img class="brand-logo-light" src="./img/leaf.png" alt="" width="140" height="37"></a>
-                        <p>if you are willing to improve this open source project , then you can begin right now <a target="_blank" href="https://github.com/swarupe7/MedPlant/">click here !!</a> .</p>
-                        <!-- Rights-->
+                        <p>Help contribute towards this project: <a target="_blank" href="https://github.com/swarupe7/MedPlant/">click here</a> .</p>
                         <p class="rights"><span>©  </span><span class="copyright-year">2023</span><span> </span><span>Company</span><span> - </span><span>All Rights Reserved.</span></p>
                     </div>
                 </div>
@@ -83,10 +89,9 @@
                         <dd>Bhimavaram, India</dd>
                     </dl>
                     <dl class="contact-list">
-                        <dt>email:</dt>
-                        <dd><a href="mailto:#">jyothiswarupseethala8086@gmail.com</a></dd>
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:jyothiswarupseethala8086@gmail.com">jyothiswarupseethala8086@gmail.com</a></dd>
                     </dl>
-
                 </div>
                 <div class="col-md-4 col-xl-3">
                     <h5>Links</h5>
@@ -94,17 +99,11 @@
                         <li><a href="ThankYou.html">About the Developers</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Blog</a></li>
-
                     </ul>
                 </div>
             </div>
         </div>
-
     </footer>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
-
 </html>

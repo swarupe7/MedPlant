@@ -17,8 +17,7 @@ The following developers have contributed to the MedPlant project:
 1. [Subha](https://github.com/subhaDTECH)
 1. [Sourav](https://github.com/sourav7274)
 1. [Anand](https://github.com/anandryadav)
-
-
+1. [Zyphaex](https://github.com/Zyphaex)
 
 We extend our sincere gratitude to all these developers for their valuable contributions to the MedPlant project.
 
