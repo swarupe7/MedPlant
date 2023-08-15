@@ -1,9 +1,10 @@
 # MedPlant
 
-MedPlant is an open-source project focused on creating awareness of the medicinal properties of various plants. It aims to provide a comprehensive resource for individuals interested in alternative medicine, herbal remedies, and the healing potential of plants.
+MedPlant is an open-source project focused on creating awareness of the medicinal properties of various plants. 
 
+It aims to provide a comprehensive resource for individuals interested in alternative medicine, herbal remedies, and the healing potential of plants.
 
-If you have any kind of doubts or queries dont hesitate to contact me.But please place 😎😎😎 these emoji in your subject of email ,so that i can easily be attentive to your mail or query.My mail was mentioned in this Readme file.
+If you have any kind of doubts or queries do not hesitate to contact me. Please place "😎😎😎" emojis in your subject of email, so that I can easily be attentive to your mail or query.
 
 ## Features
 
@@ -15,7 +16,6 @@ If you have any kind of doubts or queries dont hesitate to contact me.But please
 1. Clone this repository.
 
 2. Run the application.
-
 
 ## Contributing
 
@@ -59,8 +59,6 @@ Improvements to documentation are always welcome! If you find any areas that can
 3. Make sure your documentation follows the same style and format as the existing documentation.
 4. Submit a pull request with the changes and provide a brief explanation of the updates made.
 
-
-
 ## Video Resources
 
 For a better understanding of the project, we recommend watching the following video:
@@ -80,20 +78,18 @@ To make changes to the code, please follow these guidelines:
 
 ## Authors
 
-I want all the contributors for this project to include their name in AUTHORS.md file. 
+All the contributors for this project can include their name in the [AUTHORS](.github/AUTHORS.md) file.
 
 ## License
 
-MedPlant is open-source and released under the [License Name]. See the [MIT License](LICENSE) file for more information.
+MedPlant is open-source and released under the [MIT License](LICENSE).
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please reach out to us at [jyothiswarupseethala8086@gmail.com].
+If you have any questions, suggestions, or feedback, please reach out to us at: jyothiswarupseethala8086@gmail.com.
 
 ---
 
-We would like to express our gratitude to all contributors who have helped shape and improve MedPlant. Your contributions are greatly appreciated!
+We would like to express our gratitude to all contributors who have helped shape and improve MedPlant. 
 
-
-
-
+Your contributions are greatly appreciated!
