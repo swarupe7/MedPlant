@@ -5,17 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-<<<<<<< Updated upstream
-  background-color: rgb(183, 206, 187);
 }
 
 .about-us {
-  height: 100vh;
-=======
-}
-
-.about-us {
->>>>>>> Stashed changes
   width: 100%;
   padding: 90px 0;
   background: #ddd;
@@ -24,11 +16,6 @@
 .pic {
   height: 400px;
   width: 302px;
-<<<<<<< Updated upstream
-  border-radius: 0.5rem;
-}
-
-=======
   margin: 30px;
 }
 
@@ -36,7 +23,6 @@
   object-fit: cover;
 }
 
->>>>>>> Stashed changes
 .about {
   width: 1130px;
   max-width: 85%;
@@ -46,7 +32,6 @@
   justify-content: space-around;
 }
 
-<<<<<<< Updated upstream
 .section1 {
   width: 100%;
   padding: 4rem;
@@ -85,8 +70,6 @@ h2 {
   padding-bottom: 2rem;
 }
 
-=======
->>>>>>> Stashed changes
 .text {
   width: 540px;
 }
@@ -208,18 +191,28 @@ ol {
   visibility: hidden;
   transition: 0.22s ease;
 }
-<<<<<<< Updated upstream
-=======
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .about {
-    width: 100vw;
-    flex-direction: column;
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .pic {
+    width: 100%; 
+    height: auto; 
+    margin: 0;
   }
 
   .text {
-    padding: 40px;
-    max-width: 365px;
+    width: 100%; 
+  }
+
+  .nav-ul {
+    flex-direction: column; 
+  }
+
+  .nav-ul a {
+    padding: 10px 0; 
   }
 }
->>>>>>> Stashed changes
