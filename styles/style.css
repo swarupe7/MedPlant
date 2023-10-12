@@ -5,11 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: rgb(183, 206, 187);
 }
 
 .about-us {
-  height: 100vh;
   width: 100%;
   padding: 90px 0;
   background: #ddd;
@@ -18,7 +16,11 @@
 .pic {
   height: 400px;
   width: 302px;
-  border-radius: 0.5rem;
+  margin: 30px;
+}
+
+.carousel img {
+  object-fit: cover;
 }
 
 .about {
@@ -188,4 +190,29 @@ ol {
   opacity: 0;
   visibility: hidden;
   transition: 0.22s ease;
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .pic {
+    width: 100%; 
+    height: auto; 
+    margin: 0;
+  }
+
+  .text {
+    width: 100%; 
+  }
+
+  .nav-ul {
+    flex-direction: column; 
+  }
+
+  .nav-ul a {
+    padding: 10px 0; 
+  }
 }
