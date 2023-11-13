@@ -132,6 +132,7 @@ span {
   color: #ffffffb8;
 }
 
+
 /* FOOTER */
 
 .context-dark,
@@ -180,6 +181,7 @@ ol {
 .social-container .col {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 
 .nav-list li a:before {
   content: "\f14f";
