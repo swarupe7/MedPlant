@@ -9,6 +9,10 @@
  
 }
 
+.container {
+  padding-bottom: 5rem;
+}
+
 .about-us {
   width: 100%;
   padding: 90px 0;
@@ -219,4 +223,21 @@ ol {
   .nav-ul a {
     padding: 10px 0; 
   }
+}
+
+.back-button {
+  margin-bottom: 1.5rem;
+}
+
+.back-button a, .back-button a span {
+  text-decoration: none;
+  background: transparent;
+  color: #9f9f9f;
+  font-size: 0.9rem;
+  transition: ease-in-out 0.1s;
+  font-weight: 300;
+}
+
+.back-button a:hover, .back-button a span:hover {
+  color: black;
 }
