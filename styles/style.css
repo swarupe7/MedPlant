@@ -5,8 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-   background-color: rgba(var(--bs-dark-rgb),);
- 
+  background-color: rgba(var(--bs-dark-rgb),);
 }
 
 .container {
@@ -124,6 +123,7 @@ span {
 
 .nav-ul {
   display: flex;
+  margin-bottom: 0;
 }
 
 .nav-ul a {
@@ -135,7 +135,6 @@ span {
 .nav-ul a:hover {
   color: #ffffffb8;
 }
-
 
 /* FOOTER */
 
@@ -186,7 +185,6 @@ ol {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-
 .nav-list li a:before {
   content: "\f14f";
   font: 400 21px/1 "Material Design Icons";
@@ -202,26 +200,26 @@ ol {
 
 @media (max-width: 768px) {
   .about {
-    flex-direction: column; 
-    text-align: center; 
+    flex-direction: column;
+    text-align: center;
   }
 
   .pic {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
     margin: 0;
   }
 
   .text {
-    width: 100%; 
+    width: 100%;
   }
 
   .nav-ul {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .nav-ul a {
-    padding: 10px 0; 
+    padding: 10px 0;
   }
 }
 
@@ -229,7 +227,8 @@ ol {
   margin-bottom: 1.5rem;
 }
 
-.back-button a, .back-button a span {
+.back-button a,
+.back-button a span {
   text-decoration: none;
   background: transparent;
   color: #9f9f9f;
@@ -238,6 +237,7 @@ ol {
   font-weight: 300;
 }
 
-.back-button a:hover, .back-button a span:hover {
+.back-button a:hover,
+.back-button a span:hover {
   color: black;
 }
