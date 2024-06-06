@@ -220,3 +220,11 @@ ol {
     padding: 10px 0; 
   }
 }
+
+.previous {
+  color: white;
+}
+
+.previous:hover {
+  color: rgb(134, 196, 41);
+}
