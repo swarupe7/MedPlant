@@ -24,10 +24,11 @@ We welcome contributions from the open-source community to improve MedPlant. To 
 ### Code Contribution
 
 1. Fork the repository and create a new branch for your contribution.
-2. Ensure that your code adheres to the project's coding style and guidelines.
-3. If you're introducing new features, enhancements, or fixes, please write clean and well-documented code.
-4. Test your changes thoroughly to ensure they do not introduce any regressions.
-5. Submit a pull request with a clear description of the changes, the problem it solves, and any relevant details.Please have a look at resources on how to get a pull request.
+2. Create a new branch in your system through git (command i.e git checkout -b <branch-name>) 
+3. Ensure that your code adheres to the project's coding style and guidelines.
+4. If you're introducing new features, enhancements, or fixes, please write clean and well-documented code.
+5. Test your changes thoroughly to ensure they do not introduce any regressions.
+6. Submit a pull request with a clear description of the changes, the problem it solves, and any relevant details.Please have a look at resources on how to get a pull request.
 
 ### Adding New Plant Profiles
 
