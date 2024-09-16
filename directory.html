@@ -17,6 +17,17 @@
     <link rel="icon" type="image/x-icon" href="./img/leaf.png">
     <link rel="stylesheet" href="">
     <style>
+
+        .nav-ul-directory {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0;
+            margin-right: 0.375rem;
+            font-family: "Poppins", sans-serif;
+        }   
+
+
         .card:hover {
             transition: all ease-in 0.2s;
             transform: scale(1.03);
@@ -25,11 +36,29 @@
         
         a {
             text-decoration: none;
+            font-family: "Poppins", sans-serif;
         }
 
         .card-text{
             max-height: 70px;
             overflow:hidden;
+        }
+
+        .back-button {
+            padding-top: 1rem;
+        }
+
+        .back-button a {
+            color: gray;
+            font-weight: 300;
+            font-size: 0.9rem;
+        }
+
+        .back-button a:hover {
+            color: black;
+            text-decoration: underline;
+            text-underline-offset: 0.2rem;
+            text-decoration-thickness: 0.04rem;
         }
     </style>
 </head>
@@ -37,9 +66,13 @@
 <body>
     <nav class="navbar bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="./home.html">
+            <a class="navbar-brand text-light" href="#">
                 <img src="./img/leaf.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> MedPlant
             </a>
+            <ul class="nav-ul nav-ul-directory">
+                <li><a href="thankyou.html" style="color:white">Developers</a></li>
+                <li><a href="directory.html" style="color:white">Discover</a></li>
+            </ul>
         </div>
     </nav>
     <section class="py-5 text-center container" style="background-image: url(./img/remove.png);">
@@ -47,6 +80,12 @@
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Directory Page</h1>
                 <p class="lead text-body-secondary">Discover the Blooming Wellness Archive: Where Nature's Remedies and Serenity Unite</p>
+
+                <div class="back-button">
+                    <a href="/home.html">
+                        <span>Back to home</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -60,6 +99,38 @@
             </div>
         </div>
     </main>
+    <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+        <div class="container">
+            <div class="row row-30">
+                <div class="col-md-4 col-xl-5">
+                    <div class="pr-xl-4">
+                        <a class="brand" href="index.html"><img class="brand-logo-light" src="./img/leaf.png" alt="" width="140" height="37"></a>
+                        <p>Help contribute towards this project: <a target="_blank" href="https://github.com/swarupe7/MedPlant/">click here</a> .</p>
+                        <p class="rights"><span>©  </span><span class="copyright-year">2023</span><span> </span><span>Company</span><span> - </span><span>All Rights Reserved.</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacts</h5>
+                    <dl class="contact-list">
+                        <dt>Address:</dt>
+                        <dd>Bhimavaram, India</dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>Email:</dt>
+                        <dd><a href="mailto:jyothiswarupseethala8086@gmail.com">jyothiswarupseethala8086@gmail.com</a></dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5>Links</h5>
+                    <ul class="nav-list">
+                        <li><a href="thankyou.html">About the Developers</a></li>
+                        <li><a target="_blank" href="https://port-nine-theta.vercel.app/">Projects</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script>
         function createCard(plantName, imageUrl) {
           // Create a new card element
