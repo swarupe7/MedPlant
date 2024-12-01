@@ -133,3 +133,12 @@ h1 {
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
   }
+
+  .previous {
+    color: #557A46;
+    text-decoration: none;
+  }
+  
+  .previous:hover {
+    color: rgb(134, 196, 41);
+  }
