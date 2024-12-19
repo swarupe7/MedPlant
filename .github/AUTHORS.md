@@ -27,3 +27,5 @@ Thank you to [All Contributors](https://github.com/swarupe7/MedPlant/graphs/cont
 | [Anand](https://github.com/anandryadav)               |
 | [Zyphaex](https://github.com/Zyphaex)                 |
 | [Esther Chena](https://github.com/athenacats)         |
+| [Paul-HenryP](https://github.com/Paul-HenryP)         |
+

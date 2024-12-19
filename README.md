@@ -1,6 +1,6 @@
 # MedPlant
 
-MedPlant is an open-source project focused on creating awareness of the medicinal properties of various plants. 
+MedPlant is an open-source project focused on creating awareness of the medicinal properties of various plants.
 
 It aims to provide a comprehensive resource for individuals interested in alternative medicine, herbal remedies, and the healing potential of plants.
 
@@ -24,7 +24,7 @@ We welcome contributions from the open-source community to improve MedPlant. To 
 ### Code Contribution
 
 1. Fork the repository and create a new branch for your contribution.
-2. Create a new branch in your system through git (command i.e git checkout -b your-branch-name) 
+2. Create a new branch in your system through git (command i.e git checkout -b your-branch-name)
 3. Ensure that your code adheres to the project's coding style and guidelines.
 4. If you're introducing new features, enhancements, or fixes, please write clean and well-documented code.
 5. Test your changes thoroughly to ensure they do not introduce any regressions.
@@ -91,6 +91,6 @@ If you have any questions, suggestions, or feedback, please reach out to us at: 
 
 ---
 
-We would like to express our gratitude to all contributors who have helped shape and improve MedPlant. 
+We would like to express our gratitude to all contributors who have helped shape and improve MedPlant.
 
 Your contributions are greatly appreciated!
