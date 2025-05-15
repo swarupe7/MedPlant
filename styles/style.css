@@ -1,18 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 
+:root {
+  --primary-color: #4070f4;
+  --secondary-color: #ddd;
+  --text-color: #000;
+  --spacing: 4rem;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-   background-color: rgba(var(--bs-dark-rgb),);
+  background-color: rgba(var(--bs-dark-rgb),);
  
 }
 
 .about-us {
   width: 100%;
   padding: 90px 0;
-  background: #ddd;
+  background: --secondary-color;
 }
 
 .pic {
@@ -35,13 +42,13 @@
 }
 
 .section1 {
-  width: 100%;
-  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
+/*Combined section 1 with the rest.*/
+.section1,
 .section2,
 .section3,
 .section4,
@@ -51,6 +58,7 @@
   width: 100%;
   padding: 4rem;
 }
+
 
 .section-content {
   width: 100%;
@@ -89,7 +97,7 @@ h2 {
 }
 
 span {
-  color: #4070f4;
+  color: --primary-color;
 }
 
 .text p {
@@ -104,7 +112,7 @@ span {
 
 .hire {
   font-size: 18px;
-  background: #4070f4;
+  background: --primary-color;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -114,8 +122,8 @@ span {
 }
 
 .hire:hover {
-  background: #000;
-  border: 1px solid #4070f4;
+  background: --text-color;
+  border: 1px solid --primary-color;
 }
 
 .nav-ul {
@@ -126,6 +134,7 @@ span {
   padding: 6px;
   text-decoration: none;
   color: white;
+  transition: color 0.3s ease;
 }
 
 .nav-ul a:hover {
